@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo');
+/* @import url('https://fonts.googleapis.com/css?family=Baloo'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
 body,
 html {
     width: 100%;
@@ -12,7 +13,7 @@ body {
 hr {
     max-width: 50px;
     border-width: 3px;
-    border-color: #F05F40;
+    border-color: #008993;
 }
 
 hr.light {
@@ -20,14 +21,14 @@ hr.light {
 }
 
 a {
-    color: #D13030;
+    color: #008993;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #D13030;
+    color: #004C59;
 }
 
 h1,
@@ -36,14 +37,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Baloo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Baloo', cursive; */
 }
 
 .bg-primary {
-    background-color: #D13030 !important;
+    background-color: #008993 !important;
 }
 .bg-secondary {
-    background-color: #77184E !important;
+    background-color: #005A66 !important;
 }
 
 .bg-dark {
@@ -218,7 +220,7 @@ header.masthead p {
 }
 
 .text-primary {
-    color: #D13030 !important;
+    color: #008993 !important;
 }
 
 .btn {
@@ -234,13 +236,13 @@ header.masthead p {
 }
 
 .btn-primary {
-    background-color: #2C8341;
-    border-color: #2C8341;
+    background-color: #005A66;
+    border-color: #005A66;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #ee4b28 !important;
+    background-color: #003B49 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -258,5 +260,5 @@ header.masthead p {
     padding-bottom: 20px;
 }
 iframe{
-    border: solid 6px #5B123B;
+    border: solid 6px #003B49;
 }
